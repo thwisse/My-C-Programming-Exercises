@@ -1,5 +1,5 @@
 /*	Tavla oynayacaksiniz ama zarlar kayip diyelim.
-Sana 1-6 arasýnda rastgele iki sayi veren kodu yaz.	*/
+Sana 1-6 arasinda rastgele iki sayi veren kodu yaz.	*/
 
 #include <stdio.h>
 #include <stdlib.h>
