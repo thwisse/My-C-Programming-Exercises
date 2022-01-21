@@ -14,7 +14,7 @@ int main(){
 	while(a==0){
 		
 		printf("\tZarlari at:");
-		scanf("%d", &button);
+		scanf("%d", &button); 
 		
 		if(button==0){                       // 0a bastikca devamli zarlari atacak.
 			
