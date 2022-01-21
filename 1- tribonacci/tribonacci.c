@@ -34,4 +34,6 @@ int main(){
 	scanf("%d", &N);
 	
 	tribonacci(N);
+
+	getch();
 }
