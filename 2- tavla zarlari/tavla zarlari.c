@@ -26,4 +26,6 @@ int main(){
 		else
 			printf("\n\tZarlari atmak icin 0'a basmalisin!\n\n");
 	}
+
+	getch();
 }

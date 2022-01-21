@@ -9,7 +9,7 @@ int tribonacci(int N){
 	
 	printf(" 1st value: %d\n", first);
 	printf(" 2nd value: %d\n", middle);
-	printf(" 3rd value: %d\n", last);
+	printf(" 3rd value: %d\n", last); 
 	
 	// first middle last   total                                   1 1 1 3 5 9 17 31 ....
 	//       first  middle last  total ...
