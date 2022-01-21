@@ -1,6 +1,5 @@
-/*	Ilk uc degeri 1 olan ve bir sonra gelecek her degerin onceki uc degerin 
-toplamindan olustugu tribonacci sayilarini koda dokun. Son sayiyi kullanicidan
-alin ve fonksiyon kullanarak calistirin.	*/
+/*	Ilk uc degeri 1 olan ve bir sonra gelecek her degerin onceki uc degerin toplamindan olustugu
+tribonacci sayilarini koda dokun. Son sayiyi kullanicidan alin ve fonksiyon kullanarak calistirin.	*/
 
 #include <stdio.h>
 
@@ -12,7 +11,7 @@ int tribonacci(int N){
 	printf(" 2nd value: %d\n", middle);
 	printf(" 3rd value: %d\n", last);
 	
-	// first middle last   total							1 1 1 3 5 9 17 31 ....
+	// first middle last   total                                   1 1 1 3 5 9 17 31 ....
 	//       first  middle last  total ...
 	
 	for(i=4;i<=N;i++){
