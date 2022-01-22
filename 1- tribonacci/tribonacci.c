@@ -24,7 +24,7 @@ int tribonacci(int N){
 		middle=last;                // middle=  	1	3	.
 		last=total;                 // last= 		3	5	.		
 	}
-}
+} 
 
 int main(){
 	

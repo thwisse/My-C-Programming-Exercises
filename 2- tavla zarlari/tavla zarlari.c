@@ -11,7 +11,7 @@ int main(){
 	
 	srand(time(NULL));
 
-	while(a==0){
+	while(a==0){ 
 		
 		printf("\tZarlari at:");
 		scanf("%d", &button); 
@@ -23,7 +23,7 @@ int main(){
 			
 			printf("\n\t\tDice 1= %d\t Dice 2= %d\n\n", dice1, dice2);
 		}
-		else
+		else 
 			printf("\n\tZarlari atmak icin 0'a basmalisin!\n\n");
 	}
 
