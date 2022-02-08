@@ -7,9 +7,9 @@ int tribonacci(int N){
 	
 	int i, first=1, middle=1, last=1, total=0;
 	
-	printf(" 1st value: %d\n", first);
-	printf(" 2nd value: %d\n", middle);
-	printf(" 3rd value: %d\n", last); 
+	printf("Value  1: %d\n", first);
+	printf("Value  2: %d\n", middle);
+	printf("Value  3: %d\n", last); 
 	
 	// first middle last   total                                   1 1 1 3 5 9 17 31 ....
 	//       first  middle last  total ...
@@ -18,7 +18,7 @@ int tribonacci(int N){
 		
 		total=first+middle+last;    // total= 		3	5	9	.
 		
-		printf("%2dth value: %d\n", i, total);
+		printf("Value %2d: %d\n", i, total);
 		
 		first=middle;               // first= 		1	1	.
 		middle=last;                // middle=  	1	3	.

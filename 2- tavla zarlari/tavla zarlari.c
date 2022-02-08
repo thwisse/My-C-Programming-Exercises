@@ -21,7 +21,7 @@ int main(){
 			dice1= rand() % 6 + 1;
 			dice2= rand() % 6 + 1;
 			
-			printf("\n\t\tDice 1= %d\t Dice 2= %d\n\n", dice1, dice2);
+			printf("\n\t\tDice 1 : %d\t Dice 2 : %d\n\n", dice1, dice2);
 		}
 		else 
 			printf("\n\tZarlari atmak icin 0'a basmalisin!\n\n");
