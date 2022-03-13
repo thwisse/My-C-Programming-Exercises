@@ -14,7 +14,7 @@ int tribonacci(int N){
 	// first middle last   total                                   1 1 1 3 5 9 17 31 ....
 	//       first  middle last  total ...
 	
-	for(i=4;i<=N;i++){
+	for(i=4;i<=N;i++){		// algoritmayla gelecek olan "dogal" sayi 4 tur. bu yuzden i'yi 4 le baslattik.
 		
 		total=first+middle+last;    // total= 		3	5	9	.
 		
