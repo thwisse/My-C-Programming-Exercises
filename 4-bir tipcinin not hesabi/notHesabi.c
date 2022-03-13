@@ -117,7 +117,7 @@ int main(){
                 printf("\nFinal notun <50 old icin finali halledemedin ve: Kaldin.\n\n");
                 printf("Yil sonu ortalaman: %.2f\n", yilSonuOrt);
             }
-    }
+    } 
 
     printf("\n\nCikmak icin bir tusa basin.\n"); 
     getch();
