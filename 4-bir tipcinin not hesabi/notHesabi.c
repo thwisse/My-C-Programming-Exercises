@@ -55,7 +55,7 @@ int main(){
             fin2=(600-komiteOrt*6)/4;
 
             printf("Yil sonu ortalaman >=60 olmasi icin finalden alman gereken minimum not: %.2f\n", fin2);
-            printf("Bu teoride boyle. Final icin >=50 kuralini unutma.\n\n");
+            printf("Eger min. not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
 
             printf("Final icin not girin: ");
             scanf("%d", &fin);
@@ -90,7 +90,7 @@ int main(){
             fin2=(600-komiteOrt*6)/4;
 
             printf("Yil sonu ortalaman >=60 olmasi icin finalden alman gereken minimum not: %.2f\n", fin2);
-            printf("Bu teoride boyle. Final icin >=50 kuralini unutma.\n\n");
+            printf("Eger min. not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
 
             printf("Final icin not girin: ");
             scanf("%d", &fin);
