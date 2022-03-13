@@ -1,4 +1,7 @@
+/*	Kaan Hatipoglu'nun kendi tip fakultesi icin tarif ettigi sekilde bir not hesaplama sihirbazi yarat. */
+
 #include <stdio.h>
+#include <conio.h>
 
 int main(){
     
@@ -6,7 +9,7 @@ int main(){
     int n1,n2,n3,n4,n5,n6,fin;
     float komiteOrt,yilSonuOrt,fin2;
 
-    printf("Kaan Hatipoglu icin hazirlanan not hesaplama sihirbazina hosgeldiniz!\n\n");
+    printf("Not hesaplama sihirbazina hosgeldiniz!\n\n");
     
     printf("Komite 1 icin not girin: ");
     scanf("%d", &n1);
@@ -47,7 +50,7 @@ int main(){
         if(n1>=60 && n2>=60 && n3>=60 && n4>=60 && n5>=60 && n6>=60){
             printf("\nKomite ortalaman >=75 oldugu icin direkt: Gectin\n\n");
             printf("Finale girmene gerek kalmadi! Hem komiteleri hem finali hallettin.\n");
-            printf("Yil sonu ortalaman: %.2f\n", komiteOrt);
+            printf("\nYil sonu ortalaman: %.2f\n", komiteOrt);
         }
         else{
             printf("\nKomite ortalaman >=75 ancak herhangi bir komiten <60 old. icin: Finale girmen sart.\n\n");
