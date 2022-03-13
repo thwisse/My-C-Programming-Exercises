@@ -4,7 +4,7 @@ int main(){
     
     float k1,k2,k3,k4,k5,k6;
     int n1,n2,n3,n4,n5,n6,fin;
-    float komiteOrt,finHayali,yilSonuOrt,fin2;
+    float komiteOrt,yilSonuOrt,fin2;
 
     printf("Kaan Hatipoglu icin hazirlanan not hesaplama sihirbazina hosgeldiniz!\n\n");
     
