@@ -1,6 +1,7 @@
 /*	Kaan Hatipoglu'nun kendi tip fakultesi icin tarif ettigi sekilde bir not hesaplama sihirbazi yarat. */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <conio.h>
 
 int main(){
@@ -122,6 +123,9 @@ int main(){
             } 
     } 
 
-    printf("\n\nCikmak icin bir tusa basin.\n"); 
+    printf("\n\nYeniden baslatmak icin herhangi bir tusa, cikmak icin carpiya basin.\n"); 
     getch();
+    system("CLS");
+    return main();
+    exit(0);
 }
