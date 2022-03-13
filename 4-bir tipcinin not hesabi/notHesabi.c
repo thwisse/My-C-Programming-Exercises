@@ -119,6 +119,6 @@ int main(){
             }
     }
 
-    printf("\n\nCikmak icin bir tusa basin.\n");
+    printf("\n\nCikmak icin bir tusa basin.\n"); 
     getch();
 }
