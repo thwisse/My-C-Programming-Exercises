@@ -11,11 +11,8 @@ int main(void){
     char button1='i', button2;
 
     printf("\tMerhaba, thWBank'a hosgeldiniz!\n\tLutfen kartinizi okutun.\n\n");
-	
-    sleep(1);
-	
-    printf("\tKartiniz algilandi. Menuye aktariliyorsunuz. Lutfen bekleyin...\n\n");
-    
+	sleep(1);
+	printf("\tKartiniz algilandi. Menuye aktariliyorsunuz. Lutfen bekleyin...\n\n");
     sleep(2);
 
     while(button1=='i'){
