@@ -1,4 +1,4 @@
-/*	Kaan Hatipoglu'nun kendi tip fakultesi icin tarif ettigi sekilde bir not hesaplama sihirbazi yarat. */
+/*	Kaan Hatipoglu'na tarif ettigi sekilde bir not hesaplama sihirbazi yarat. */
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -3,6 +3,7 @@ Sana 1-6 arasinda rastgele iki sayi veren kodu yaz.	*/
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include <time.h>
 
 int main(){

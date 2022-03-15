@@ -1,6 +1,7 @@
 /*	Kullanicidan aldiginiz sayinin tersini ekrana yazdirin.	*/
 
 #include <stdio.h>
+#include <conio.h>
 
 int main(){
 	

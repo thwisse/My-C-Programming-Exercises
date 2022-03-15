@@ -2,6 +2,7 @@
 tribonacci sayilarini koda dokun. Son sayiyi kullanicidan alin ve fonksiyon kullanarak calistirin.	*/
 
 #include <stdio.h>
+#include <conio.h>
 
 int tribonacci(int N){
 	
