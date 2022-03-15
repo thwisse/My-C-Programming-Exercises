@@ -123,7 +123,7 @@ int main(){
             } 
     } 
 
-    printf("\n\nYeniden baslatmak icin herhangi bir tusa, cikmak icin carpiya basin.\n"); 
+    printf("\n\nYeniden baslatmak icin herhangi bir tusa, cikmak icin carpiya basin:\n"); 
     getch();
     system("CLS");
     return main();
