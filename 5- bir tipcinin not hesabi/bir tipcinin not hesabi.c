@@ -7,38 +7,38 @@
 int main(){
     
     float k1,k2,k3,k4,k5,k6;
-    int n1,n2,n3,n4,n5,n6,fin;
+    float n1,n2,n3,n4,n5,n6,fin;
     float komiteOrt,yilSonuOrt,fin2;
 
     printf("Not hesaplama sihirbazina hosgeldiniz!\n\n");
     
     printf("Komite 1 icin not girin: ");
-    scanf("%d", &n1);
+    scanf("%f", &n1);
 
     k1=n1*18.64/100;
 
     printf("Komite 2 icin not girin: ");
-    scanf("%d", &n2);
+    scanf("%f", &n2);
 
     k2=n2*15.68/100;
 
     printf("Komite 3 icin not girin: ");
-    scanf("%d", &n3);
+    scanf("%f", &n3);
 
     k3=n3*12.5/100;
 
     printf("Komite 4 icin not girin: ");
-    scanf("%d", &n4);
+    scanf("%f", &n4);
 
     k4=n4*19.21/100;
 
     printf("Komite 5 icin not girin: ");
-    scanf("%d", &n5);
+    scanf("%f", &n5);
 
     k5=n5*19.77/100;
 
     printf("Komite 6 icin not girin: ");
-    scanf("%d", &n6);
+    scanf("%f", &n6);
 
     k6=n6*14.2/100;
 
@@ -59,10 +59,10 @@ int main(){
             fin2=(600-komiteOrt*6)/4;
 
             printf("Yil sonu ortalaman >=60 olmasi icin finalden alman gereken minimum not: %.2f\n", fin2);
-            printf("Eger min. not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
+            printf("Eger minimum not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
 
             printf("Final icin not girin: ");
-            scanf("%d", &fin);
+            scanf("%f", &fin);
         
             if(fin>=50){
                 fin=fin*40/100;
@@ -94,10 +94,10 @@ int main(){
             fin2=(600-komiteOrt*6)/4;
 
             printf("Yil sonu ortalaman >=60 olmasi icin finalden alman gereken minimum not: %.2f\n", fin2);
-            printf("Eger min. not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
+            printf("Eger minimum not <50 ciktiysa unutma, bu teoride boyle. Final icin >=50 sarti hala gecerli.\n\n");
 
             printf("Final icin not girin: ");
-            scanf("%d", &fin);
+            scanf("%f", &fin);
 
             if(fin>=50){
                 fin=fin*40/100;
