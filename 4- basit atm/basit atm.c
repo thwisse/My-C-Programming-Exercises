@@ -10,7 +10,7 @@ int main(void){
     float cash=0.0, balance=1000.00, witLimit=2000.00, depLimit=5000.00;        // withdraw = cekme,  deposit = yatirma
     char button1='i', button2;
 
-    printf("\tMerhaba, thWBank'a hosgeldiniz!\n\tLutfen kartinizi okutun.\n\n");
+    printf("\tMerhaba, thwisse Bankasi'na hosgeldiniz!\n\tLutfen kartinizi okutun.\n\n");
     sleep(1);
     printf("\tKartiniz algilandi. Menuye aktariliyorsunuz. Lutfen bekleyin.\n\n");
     sleep(2);
@@ -79,7 +79,7 @@ int main(void){
         printf("\n\tYeniden islem yapmak icin i tusuna, ayrilmak icin farkli herhangi bir tusa basiniz: ");
         scanf("%s",&button1);
     }
-    printf("\n\tthWBank iyi gunler diler. Hoscakalin!\n");
+    printf("\n\tthwisse Bankasi esenlikler diler. Hoscakalin!\n");
 
     getch();
 }
