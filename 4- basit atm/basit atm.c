@@ -12,10 +12,10 @@ int main(void){
 
     printf("\tMerhaba, thWBank'a hosgeldiniz!\n\tLutfen kartinizi okutun.\n\n");
 	
-	sleep(1);
+    sleep(1);
 	
-	printf("\tKartiniz algilandi. Menuye aktariliyorsunuz. Lutfen bekleyin...\n\n");
-
+    printf("\tKartiniz algilandi. Menuye aktariliyorsunuz. Lutfen bekleyin...\n\n");
+    
     sleep(2);
 
     while(button1=='i'){
