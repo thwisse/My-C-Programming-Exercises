@@ -7,24 +7,24 @@ int main(){
 	
 	int num, reverse;		// reverse = tersi
 	
-    	printf("Gireceginiz sayiyi ters cevirecek. Sayiyi girin: ");
-    	scanf("%d", &num);
+    printf("Gireceginiz sayiyi ters cevirecek. Sayiyi girin: ");
+    scanf("%d", &num);
     	
-    	if(num>9){
+    if(num>9){
     		
-    		printf("Sayinin tersten yazilmis hali: ");
+    	printf("Sayinin tersten yazilmis hali: ");
     		
-   			while(num>0){
+   		while(num>0){
 		
-				reverse= num % 10;	 // sayinin son basamagi tersi'ne esit olmus olacak.
+			reverse= num % 10;	 // sayinin son basamagi tersi'ne esit olmus olacak.
 			
-      			printf("%d", reverse);
+      		printf("%d", reverse);
       		
-      			num= num/10;		// sayi ondalikli ciksa bile sadece int kismini gosterecek. isleme oyle devam edecek sonucta.
-    		}
-   		}
-    	else
-	    	printf("Hatali bir giris yaptiniz. 0'dan buyuk, en az 2 bas. bir sayi giriniz.");	
+      		num= num/10;		// sayi ondalikli ciksa bile sadece int kismini gosterecek. isleme oyle devam edecek sonucta.
+    	}
+   	}
+    else
+	    printf("Hatali bir giris yaptiniz. 0'dan buyuk, en az 2 bas. bir sayi giriniz.");	
 
 	getch();
 } 

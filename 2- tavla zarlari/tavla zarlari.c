@@ -19,8 +19,8 @@ int main(){
 		
 		if(button==0){                       // 0a bastikca devamli zarlari atacak.
 			
-			dice1= rand() % 6 + 1;
-			dice2= rand() % 6 + 1;
+			dice1= rand()%6+1;
+			dice2= rand()%6+1;
 			
 			printf("\n\t\t1thDice: %d\t 2ndDice: %d\n\n", dice1, dice2);
 		}
