@@ -8,7 +8,7 @@ Sana 1-6 arasinda rastgele iki sayi veren kodu yaz.	*/
 
 int main(){
 	
-	int a=0, dice1, dice2, button;            // dice: zar
+	int a=0, dice1, dice2, button;       // dice: zar
 	
 	srand(time(NULL));
 
@@ -17,7 +17,7 @@ int main(){
 		printf("\tZarlari at:");
 		scanf("%d", &button); 
 		
-		if(button==0){                       // 0a bastikca devamli zarlari atacak.
+		if(button==0){              // 0a bastikca devamli zarlari atacak.
 			
 			dice1= rand()%6+1;
 			dice2= rand()%6+1;

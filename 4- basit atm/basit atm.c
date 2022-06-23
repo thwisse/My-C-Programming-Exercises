@@ -1,5 +1,5 @@
-/*	Banka atmsi yapin. Para cekme, para yatirma, bakiye goruntuleme gibi islemler yapilabilsin.
-Para cekme ve yatirma limiti olsun. Sifreyle giris yapilsin.	*/
+/*	Banka atmsi yapin. Para cekme, para yatirma, bakiye goruntuleme gibi 
+islemler yapilabilsin. Para cekme ve yatirma limiti olsun. Sifreyle giris yapilsin.	*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +8,8 @@ Para cekme ve yatirma limiti olsun. Sifreyle giris yapilsin.	*/
 
 int main(void){
 
-    float cash=0.0, balance=1000.00, witLimit=2000.00, depLimit=5000.00;    // withdraw = cekme, deposit = yatirma
+    float cash=0.0, balance=1000.00, witLimit=2000.00, depLimit=5000.00;    
+    // withdraw = cekme, deposit = yatirma
     char button1='i', button2;
 
     printf("\tMerhaba, thwisse Bankasi'na hosgeldiniz!\n\tLutfen kartinizi okutun.\n\n");

@@ -20,7 +20,9 @@ int main(){
 			
       		printf("%d", reverse);
       		
-      		num= num/10;		// sayi ondalikli ciksa bile sadece int kismini gosterecek. isleme oyle devam edecek sonucta.
+      		num= num/10;		
+			// sayi ondalikli ciksa bile sadece int kismini gosterecek. 
+			// isleme oyle devam edecek sonucta.
     	}
    	}
     else
