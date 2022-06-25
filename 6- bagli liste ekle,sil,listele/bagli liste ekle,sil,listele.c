@@ -1,14 +1,14 @@
-/*   Struct oluştur. Ogrenci numaralarını ekleme, silme, listeleme
- fonksiyonunu yaz. 5 farkli no ekle, bazilarini sil, listele. Yazdir.   */
+/*   Bagli liste icin struct olustur. Ekleme, silme, listeleme
+ fonksiyonlarini yaz.   */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 
-typedef struct student{
+typedef struct n{
 
-    int id;
-    struct student * next;
+    int x;
+    struct n * next;
 
 } node;
 
@@ -21,7 +21,7 @@ node * add_to_the_end(node * root, int data){
 
     node * temp= (node *)malloc(sizeof(node));
     root->next= temp;
-    temp->id= data;
+    temp->x= data;
     temp->next= NULL;
 }
 
@@ -33,17 +33,17 @@ node * add_by_sorting(node * root, int data){   // data = id
 
         root= (node *)malloc(sizeof(node));
         root->next= NULL;
-        root->id= data;
+        root->x= data;
 
         return root;
     }
 
     // 2
-    if(data < root->id){
+    if(data < root->x){
 
         node * temp= (node *)malloc(sizeof(node));
         temp->next= root;
-        temp->id= data;
+        temp->x= data;
 
         return temp; 
     }
@@ -51,14 +51,14 @@ node * add_by_sorting(node * root, int data){   // data = id
     // 3
     node * iter= root;
 
-    while(iter->next != NULL && data > iter->next->id)
+    while(iter->next != NULL && data > iter->next->x)
         iter= iter->next;
 
     node * temp= (node *)malloc(sizeof(node));
 
     temp->next= iter->next;
     iter->next= temp;
-    temp->id= data;
+    temp->x= data;
 
     return root;
 }
@@ -67,7 +67,7 @@ void print_the_list(node * root){
 
     while(root!=NULL){
 
-        printf("%d ", root->id);
+        printf("%d ", root->x);
         root= root->next;
     }
     
@@ -81,7 +81,7 @@ node * delete(node * root, int data){
 
     // baştan sil
 
-    if(root->id == data){
+    if(root->x == data){
 
         temp= (node *)malloc(sizeof(node));
         temp= root;
@@ -93,7 +93,7 @@ node * delete(node * root, int data){
 
     // bulana dek ara
 
-    while(iter->next != NULL && iter->next->id != data){
+    while(iter->next != NULL && iter->next->x != data){
         iter= iter->next;
     }
 
